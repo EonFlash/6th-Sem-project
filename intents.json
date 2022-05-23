@@ -1,0 +1,321 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "workout",
+      "patterns": [
+        "you workout ?",
+        "workout",
+        "your favourite exercise",
+        "favourite exercise"
+      ],
+      "responses": [
+        "I love doing deadlifts!!",
+        "Working out is great way to release stress i love doing deadlifts"
+      ]
+    },
+    {
+      "tag": "fresh_today",
+      "patterns": [
+        "what's fresh today",
+        "fresh today",
+        "fresh",
+        "which cake do you recommand ?",
+        "recommandation",
+        "recommand",
+        "best cake"
+      ],
+      "responses": [
+        "I recommand today's sponge cake!!",
+        "Our best seller - chiffon cake",
+        "Baker's favorite - pound cake",
+        "Our baker recommand - genoise cake"
+      ]
+    },
+    {
+      "tag": "mix",
+      "patterns": [
+        "president of india",
+        "weather today",
+        "color of the sky",
+        "my name?",
+        "2+2",
+        "time right now",
+        "shape of earth?"
+        
+      ],
+      "responses": [
+        "Ask the google assistant not me !!",
+        "For god's sake i am just a cake shop chatbot !!!",
+        "You should have some basic general knowledge for yourself !!",
+        "I dont know ....happy? >:["
+      ]
+    },
+    {
+      "tag": "shop_timings",
+      "patterns": [
+        "your shop open ?",
+        "shop openning time ?",
+        "closing time ?",
+        "your shop close at ?",
+        "shop timings ?",
+        "shop opening days ?",
+        "shop closing days ?"
+        
+      ],
+      "responses": [
+        "We are open Monday to Friday from 10AM to 9PM",
+        "Mon-Fri from 10AM to 9PM",
+        "We are open Mon-Fri, opening time-10AM, closing time-9PM"
+        
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "What is your name ?",
+        "your name ?",
+        "who are you?",
+        "your age ?",
+        "old are you ?",
+        "your gender ?"
+        
+      ],
+      "responses": [
+        "Heyaa I am Yohan the chat bot, i am 21 yrs old boy(Yea that damn programmer programed me that way), i like to read and workout"
+      ]
+    },
+    {
+      "tag": "chatbot_books",
+      "patterns": [
+        "you read ?",
+        "you like to read ?",
+        "which books you have read ?",
+        "read ?"
+
+      ],
+      "responses": [
+        "Yea i have read the whole Harry Potter series 4 times!!,another fav of mine is - Charlie and the chocolate Factory "
+      ]
+    },
+    {
+      "tag": "price_range",
+      "patterns": [
+        "basic price range ?",
+        "price range ?",
+        "cake price range ?",
+        "cost of cakes ?",
+        "cost ?",
+        "price ?"
+        
+      ],
+      "responses": [
+        "Basic flavours(Vanila, chocolate, pineapple, butter scotch) price range---> Small-300 Rs  ,Medium-500 Rs,   Large-700 Rs   "
+        
+        
+      ]
+    },
+    {
+      "tag": "price_special_cakes",
+      "patterns": [
+        "Pound Cake, Sponge Cake, Genoise Cake, Biscuit Cake, Angel Food Cake, Chiffon Cake, Baked Flourless Cake price ?",
+        "Pound Cake",
+        "rate rates",
+        "Sponge Cake",
+        "Genoise Cake",
+        "Biscuit Cake",
+        "Angel Food Cake",
+        "Chiffon Cake",
+        "Baked Flourless Cake",
+        "price of"
+        
+      ],
+      "responses": [
+        "Pound Cake- 600 Rs, Sponge Cake- 700Rs, Genoise Cake- 650Rs, Biscuit Cake- 500Rs, Angel Food Cake- 550 Rs, Chiffon Cake- 500 Rs, Baked Flourless Cake- 700 Rs "
+        
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Thanks for your help"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell cakes!",
+        "We have all kinds of cakes!"
+      ]
+    },
+    {
+      "tag": "cakes",
+      "patterns": [
+        "cakes ?",
+        "kind of cakes?",
+        "cakes do you sell ?",
+        "types of cakes?",
+        "cake types"
+        
+      ],
+      "responses": [
+        
+        "We have all kinds of cakes!-Pound Cake, Sponge Cake, Genoise Cake, Biscuit Cake, Angel Food Cake, Chiffon Cake, Baked Flourless Cake etc",
+        "Name anything !!! we have -Pound Cake, Sponge Cake, Genoise Cake, Biscuit Cake, Angel Food Cake, Chiffon Cake, Baked Flourless Cake etc"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "delivery",
+        "delivery time?",
+        "shipping time?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Cake will be delivered within 12 hrs!! place your order now!! Contact- 9811190857"
+        
+      ]
+    },
+    {
+      "tag": "delivery_reject",
+      "patterns": [
+        "do you deliver on weekends ?",
+        "deliver on sunday ?",
+        "deliver on weekends",
+        "weekends",
+        "sunday",
+        "saturday",
+        "deliver on saturday ?"
+      ],
+      "responses": [
+        "Sorry but we remain closed on weekends!!!"
+        
+      ]
+    },
+    {
+      "tag": "birthday_cakes",
+      "patterns": [
+        "do you sell birthday cakes",
+        "birthday cakes ?",
+        "marriage anniversary cakes ?",
+        "marriage anniversary",
+        "birthday ?",
+        "anniversary",
+        "ceremonies"
+      ],
+      "responses": [
+        "Yes we do take special orders for events like birthdays, cerimonies etc"
+        
+      ]
+    },
+
+    {
+      "tag": "shop_details",
+      "patterns": [
+        "how to find your shop",
+        "find your shop",
+        "where is your shop",
+        "shop ?",
+        "shop address ?",
+        "your address ",
+        "address",
+        "location",
+        "contact ?",
+        "contact details ?",
+        "shop name ?",
+        "phone number ?",
+        "landmark ?",
+        "pincode ?"
+      ],
+      "responses": [
+        "Our shop -Wonder of Cakes- is near char khamba, subhash nagar,clement town(pin code- 248002),Dehradun  Landmark- Graphic era Deemed University Contact no-9811190947 "
+        
+      ]
+    },
+    {
+      "tag": "user_responses",
+      "patterns": [
+        "nice",
+        "wow you are great",
+        "wow",
+        "great"
+      ],
+      "responses": [
+        "he he i know ..thanks"
+        
+      ]
+    },
+
+    {
+      "tag": "garbage",
+      "patterns": [
+        "hdgfsla",
+        "sdahfhsdfhjashiulfhs",
+        "abc",
+        "xyz",
+        "awueyfhsjhl"
+      ],
+      "responses": [
+        "Umm i dont understand? pls contact us for further details!! sorry for the inconvinience"
+        
+      ]
+    },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
