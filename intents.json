@@ -45,7 +45,7 @@
         "I recommand today's sponge cake!!",
         "Our best seller - chiffon cake",
         "Baker's favorite - pound cake",
-        "Our baker recommand - genoise cake"
+        "Our baker recommands - genoise cake"
       ]
     },
     {
@@ -89,6 +89,7 @@
     {
       "tag": "chatbot",
       "patterns": [
+        "what are you?",
         "What is your name ?",
         "your name ?",
         "who are you?",
@@ -116,6 +117,23 @@
     },
     {
       "tag": "price_range",
+      "patterns": [
+        "basic price range ?",
+        "price range ?",
+        "cake price range ?",
+        "cost of cakes ?",
+        "cost ?",
+        "price ?"
+        
+      ],
+      "responses": [
+        "Basic flavours(Vanila, chocolate, pineapple, butter scotch) price range---> Small-300 Rs  ,Medium-500 Rs,   Large-700 Rs   "
+        
+        
+      ]
+    },
+    {
+      "tag": "",
       "patterns": [
         "basic price range ?",
         "price range ?",
