@@ -68,12 +68,12 @@ class ChatApplication:
             return
         
         self.msg_entry.delete(0,END)
-        msg1=f"{sender}:{msg}\n\n"
+        msg1=f"{sender}: {msg}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END,msg1)
         self.text_widget.configure(state=DISABLED)
 
-        msg2=f"=>{bot_name}:{get_response(msg)}\n\n\n"
+        msg2=f"=>{bot_name}: {get_response(msg)}\n\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END,msg2)
         self.text_widget.configure(state=DISABLED)
